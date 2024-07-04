@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { collection, getDocs } from 'firebase/firestore';
 import { ref, getDownloadURL } from 'firebase/storage';
-import { db, storage } from '../../firebase';  // Adjust the path according to your file structure
-import './SubmissionsTable.css';  // Ensure you create this CSS file
+import { db, storage } from '../../firebase'; 
+import './SubmissionsTable.css'; 
 
 const EmailSubmissions = () => {
   const [email, setEmail] = useState('');
